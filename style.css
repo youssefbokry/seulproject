@@ -45,3 +45,8 @@ table label{
     background: black   ;
     color: white;
 }
+@media(max-width:700px){
+    body{
+        background: red;
+    }
+}
