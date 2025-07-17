@@ -8,9 +8,3 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-@media(max-width:700px){
-    body{
-    
-    background: rgb(255, 0, 140);
-}
-}
