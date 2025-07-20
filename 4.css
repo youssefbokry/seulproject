@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+     user-select: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:url(picture/AdobeStock_1296500518_Preview.jpeg), rgba(0, 0, 0, 0.76);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.box{
+    width: 280px;
+    height:330px ;
+    background-image: linear-gradient(to bottom ,rgba(255, 115, 0, 0.836) 70px,rgba(255, 255, 255, 0.404) 70px)  ;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    right: 400px;
+    border-radius: 14px;
+    box-shadow: 0 0 7PX 3px rgba(158, 158, 158, 0.685);
+    transform: scale(1.2);
+    backdrop-filter: blur(5px);
+
+}
+.a{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin: 20px 80px;
+    font-size: 22px;
+    font-weight: lighter;
+}
+#name{
+position: absolute;
+top: 110px;
+left: 25px;
+height:  30px;
+width: 62%;
+border-radius: 6px;
+border: solid rgb(94, 6, 6)  1px;
+padding-left: 50px;
+}
+ 
+#Password{
+    position: absolute;
+    top: 160px;
+    left: 25px;
+    height:  30px;
+    width: 62%;
+    border-radius: 6px;
+  
+    padding-left: 50px;
+    border: solid rgb(94, 6, 6)  1px;
+}
+.fa-user{
+    position: absolute;
+top: 111px;
+left: 26px;
+z-index: 13;
+background:rgb(153, 32, 2) ;
+font-size: 16px;
+padding: 7px 7px;
+
+
+
+}
+.fa-lock{
+    position: absolute;
+top: 161px;
+left: 26px;
+z-index: 13;
+background:rgb(153, 32, 2)  ;
+font-size: 16px;
+padding: 7px 7px;
+
+
+
+}
+.Login{
+ 
+    position: relative;
+    top: 240px;
+    left:   20px;
+    padding: 7px 100px;
+    color: white;
+    background: rgb(153, 32, 2)  ;
+    border: none;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.Login:hover{
+ 
+    position: relative;
+    top: 240px;
+    left:   20px;
+    padding: 7px 100px;
+    color: white;
+    background: rgba(66, 16, 16, 0.507) ;
+    border: none;
+    border-radius: 7px;
+    transition: 0.5s;
+   
+}
+.Login:active{
+ 
+    position: relative;
+    top: 240px;
+    left:   20px;
+    padding: 7px 100px;
+    color: white;
+    background: rgb(153, 32, 2)  ;
+    border: none;
+    border-radius: 7px;
+    transition: 0.5s;
+    box-shadow: 0 0 7px 4px rgb(153, 32, 2);
+   
+}
+.sdf{
+    font-size: 12px;
+    position: relative;
+    top: 170px;
+    left: 30px;
+    color: rgb(153, 32, 2)  ;
+    text-decoration: underline;
+}
+.sdfh{
+    font-size: 13px;
+    position: relative;
+    top: 250px;
+    left: 50px;
+    color: rgb(0, 0, 0) ;
+    text-decoration: underline;
+}
+span{
+
+    color: rgb(153, 32, 2) ;
+    font-size: 12px;
+    text-decoration: underline ;
+}
